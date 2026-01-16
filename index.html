@@ -7,8 +7,17 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <style>
+        .hero{
+            background-image: url('./images/banner.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 8px;
+        }
+    </style>
+
 </head>
-<body class=" max-w-7xl my-14 mx-auto">
+<body class=" max-w-7xl mt-14 mx-auto">
     <header>
         <nav class="flex items-center justify-between">
                 <img src="./images/logo2.png" class="cursor-pointer">
@@ -24,5 +33,17 @@
             <button class="bg-[#B68C5A] py-4.25 px-7.25 rounded-lg text-white cursor-pointer">Free consultation</button>
         </nav>
     </header>
+    <main>
+        <div class="hero mt-20 py-28 px-64">
+            <div class="hero-container text-center">
+                <h1 class="text-7xl text-white font-extrabold leading-20 mb-4">We Provide Effective Legal Solutions</h1>
+                <p class="text-white leading-6.5 text-[#E7E7E7]">
+                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.
+                </p>
+                <input class="text-white" type="text" placeholder="search your service">
+                <button class="bg-[#B68C5A] py-4.25 px-7.25 rounded-lg text-white cursor-pointer">Search</button>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
